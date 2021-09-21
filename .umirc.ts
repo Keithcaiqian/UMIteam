@@ -10,9 +10,9 @@ export default defineConfig({
   },
   proxy: {
     '/api': {
-      'target': '',
+      'target': 'http://xxxxx',
       'changeOrigin': true,
-      'pathRewrite': { '^/api' : '' },
+      'pathRewrite': { '^/api' : '/xxx/xx/xxx' },
     },
   },
 });

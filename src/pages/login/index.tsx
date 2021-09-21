@@ -42,7 +42,7 @@ function Index(props) {
     }
 
     return (
-        <div id='loginPage'>
+        <div id='login_page'>
             <input type="text" placeholder='账号' value={account}
                 onChange={e=>{
                     setAccount(e.target.value.trim())
